@@ -1,0 +1,55 @@
+*{margin:0;
+    padding:0;
+    box-sizing:border-box;}
+    
+    body{
+        background-color: rgb(255, 255, 255);
+        font-family: 'Inter', sans-serif;
+        font-size: calc(.6rem + .4vw);
+        
+    }
+    
+    .app{
+      margin-top: 50px;;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        height: 100vh;
+      
+    }
+    
+    
+    .city{
+      font-size: x-large;
+    }
+    
+    .temp{
+      font-size: xx-large;
+    
+    border-color: rgb(0, 0, 0);
+    
+    
+    }
+    
+    #searcBar{
+    font-size: x-large;
+    }
+    
+    .border{ 
+    border: solid black ;
+    width: 500px;
+    box-shadow: 5px 10px #fab700;
+    }
+    
+    input {
+      width: 300px;
+      padding: 5px 20px;
+        margin: 5px 5px;
+        border-radius: 5px; 
+        box-sizing: border-box;  
+        border: 4px solid #fac000af;
+        background-color: #d4e4d3;
+    }
+    
+    
